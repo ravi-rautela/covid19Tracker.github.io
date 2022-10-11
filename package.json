@@ -1,5 +1,5 @@
 {
-  "name": "covidtracker",
+  "name": "nothing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This is a simmple fetch api call appliction",
+  "main": "index.js",
+  "author": "Ravi Rautela <ranvi44rautela@gmail.com>",
+  "license": "MIT"
 }

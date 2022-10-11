@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner-text {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blink {
+    animation: blink 1.6s linear infinite;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 2;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    font-size:
+        45px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-section {
+    margin-top: 2.6rem;
+    text-align: center;
+}
+
+.ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span {
+    font-size: 10px;
+}
+
+p,
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px black;
+}
+
+li {
+    display: inline-flex;
+    padding: 3.2rem;
+    border-radius: 6px;
+    color: white;
+    margin: 10px;
+}
+
+.card {
+    background-color: red;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellowgreen;
+}
+
+.voilate {
+    background-color: violet;
 }
